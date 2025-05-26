@@ -62,3 +62,27 @@ Import the project as a Maven project.
 Navigate to StudentAnalyzerTest class in src/test/java/com/example/studentanalyzer/.
 
 Right-click on the class and select Run 'StudentAnalyzerTest'.
+
+
+
+## 🐛 Identified and Resolved Issues
+
+| Issue ID | Description                                                | Status    |
+|----------|------------------------------------------------------------|-----------|
+| #1       | NullPointerException when the input list is `null`         | ✅ Fixed  |
+| #2       | `countExcellentStudents` did not handle `null` elements    | ✅ Fixed  |
+| #3       | Inconsistent score range handling between methods          | ✅ Fixed  |
+| #4       | Missing test case for `null` elements in the list          | ✅ Added  |
+
+---
+
+## 📈 Test Coverage
+
+Test coverage was measured using **JaCoCo**.
+
+| Class              | Line Coverage | Branch Coverage |
+|--------------------|---------------|-----------------|
+| StudentAnalyzer     | 100%          | 100%            |
+| StudentAnalyzerTest | 100%          | N/A             |
+
+✅ All lines and conditional branches in the main class are fully covered by the unit tests.
